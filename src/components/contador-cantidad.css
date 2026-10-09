@@ -1,0 +1,27 @@
+:host {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+button {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+span {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
